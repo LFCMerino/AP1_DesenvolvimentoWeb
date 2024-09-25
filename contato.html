@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="contato.css" media="screen" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="index.html">Hardware Website</a>
+            <ul class="nav-list">
+                <li><a href="/">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contato.html" style="color: yellow">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <div class="container-fluid p-5 bg-info text-white text-center">
+        <h1>Entre em contato</h1> 
+      </div>
+      <div class="form">
+        <form action="action_page.php">
+      
+          <label for="fname">Nome</label>
+          <input type="text" id="fname" name="firstname" placeholder="Seu nome">
+      
+          <label for="lname">E-mail</label>
+          <input type="text" id="lname" name="lastname" placeholder="Seu e-mail">
+      
+          <label for="subject">Texto</label>
+          <textarea id="subject" name="subject" placeholder="Assunto" style="height:200px"></textarea>
+      
+          <input type="submit" value="Enviar">
+      
+        </form>
+      </div>
+    </main>
+    <footer>
+        <hr>
+        <p class="textofooter">Copyright © 2024 Hardware Website</p>
+    </footer>
+</body>
+</html>

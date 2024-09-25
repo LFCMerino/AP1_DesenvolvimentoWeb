@@ -1,0 +1,110 @@
+* {
+    margin: 0 ;
+    padding: 0;
+}
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: #FFF;
+    margin-right: 600px
+}
+nav{
+    display: flex;
+    background-color: rgb(37, 37, 39);
+    height: 8vh;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+    margin-top: 15px;
+}
+.nav-list a{
+    color: #FFF;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.nav-list a:hover{
+    opacity: 0.7;
+}
+
+body{
+    background-image: url('/Imagens/background.webp');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.aviso{
+    margin-left: 70%;
+    margin-top: 2%;
+}
+footer{
+    margin-top: 10%;
+}
+.textofooter{
+    text-align:center;
+}
+.listafooter{
+    margin-left: 10%;
+    color: white;
+}
+.titulo{
+    margin-top: 2%;
+    text-align:center;
+    color: black
+}
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 20%;
+}
+
+th {
+  height: 50px;
+  
+}
+.textofooter{
+    color: white;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.form {
+    margin-top: 4%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
