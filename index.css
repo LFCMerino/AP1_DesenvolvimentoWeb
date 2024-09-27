@@ -50,7 +50,7 @@ body{
 }
 footer{
     text-align:center;
-    margin-top: 40%;
+    margin-top: 15%;
 }
 .titulo{
     margin-top: 2%;
@@ -80,3 +80,16 @@ th {
 .textofooter{
     color: white;
 }
+.imgplaca{
+    height: 35%;
+    width: 35%; 
+}
+.imgplacadiv{
+    margin-top: 3%;
+    text-align:center;
+}
+.videoyt{
+    margin-top: 3%;
+    text-align:center;
+}
+
