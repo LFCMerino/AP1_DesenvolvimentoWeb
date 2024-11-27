@@ -108,3 +108,65 @@ th {
 .h1form{
     margin-top: 2%;
 }
+@media screen and (max-width: 600px) {
+    .logo {
+        font-size: 18px; 
+        margin-right: 0; 
+    }
+
+    nav {
+        flex-direction: column; 
+        height: auto; 
+    }
+
+    .nav-list {
+        display: block; 
+        text-align: center;
+    }
+
+    .nav-list li {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .aviso {
+        margin-left: 0;
+        margin-top: 5%;
+    }
+
+    .texto-sobre {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .texto-h5 {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .logo img {
+        width: 60%; 
+        height: auto; 
+    }
+
+    .pokemon {
+        width: 100%; 
+        margin: 10px 0; 
+    }
+
+    footer {
+        margin-top: 2%;
+    }
+
+    .videoyt {
+        margin-top: 5%;
+    }
+
+    th {
+        font-size: 14px; 
+    }
+
+    .h1form {
+        margin-top: 5%; 
+    }
+}

@@ -100,3 +100,64 @@ input, button {
 .listafooter{
     list-style-type: none;
 }
+@media screen and (max-width: 600px) {
+    .logo {
+        font-size: 18px; 
+        margin-right: 0; 
+    }
+
+    nav {
+        flex-direction: column; 
+        height: auto; 
+        padding: 10px 0;
+    }
+
+    .nav-list {
+        display: block;
+        text-align: center;
+    }
+
+    .nav-list li {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .aviso {
+        margin-left: 0;
+        margin-top: 5%;
+    }
+
+    footer {
+        margin-top: 2%;
+    }
+
+    .logo img {
+        width: 60%;
+        height: auto; 
+    }
+
+    .titulo {
+        font-size: 20px; 
+        margin-top: 1%;
+    }
+
+    input, button {
+        width: 100%;
+        margin-bottom: 10px; 
+    }
+
+    #pokemon-data img {
+        width: 120px; 
+        height: 120px; 
+    }
+
+    .titulo-pokemon, .titulo1-pokemon {
+        font-size: 18px;
+        margin-top: 3%;
+    }
+    
+    .caracteristicas, .caracteristicas2 {
+        font-size: 14px;
+        margin-top: 1%;
+    }
+}
